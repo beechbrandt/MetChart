@@ -1,0 +1,27 @@
+= Overview
+
+As a dev-ops you will work supporting a small group of scientific programmers, and MetChart is a very simple example of a small web app that you may be asked to deploy in to production. This test is intended as a demonstration of how you might approach this problem in a professional capacity. We do not expect exhaustive answers to all questions raised in this README, and we do not expect applicants to spend more than few hours working on this problem. However, it is worth spending at least some time thinking about strategies and approaches as this will form the basis of your technical interview.
+
+= Installation
+
+Once you have cloned the repository you should be able to install the application with pip, e.g.
+
+pip install .
+
+You will then be able to launch the Flask internal testing server with the command:
+
+start-MetChart
+
+= Expectations
+
+You will be provided with access details to a clean CentOS VM on to which would like you to install MetChart and make available to access via port 80.
+
+Once you have done this we would like you to consider how you might address some or all of the following:
+
+1) Deployment - What changes/features might you need to include to make this application easier to deploy in to production.
+2) Reliability - What would you need to do to make ensure that this web app was reliable and always available to users?
+3) Security - How might you go about making sure that this application is only accessible to authorised users through the public internet (i.e. without restricting access to only those behind a VPN).
+4) Scalability - How can you ensure the app continues to deliver good performance of the application as the load increases>
+3) Monitoring - How might you instrument this app to help identify any problems with scalability, security or reliability.
+
+We do not expect to see concrete implementations of any or all of these issues, however it may help you during the interview to be able to refer to a specific example.

@@ -1,0 +1,8 @@
+<!doctype html>
+<title>Daily Weather Forecast</title>
+<div class=page>
+  <h1>Daily Temperature Forecast</h1>
+  <img src="{{url_for('plot_var', var='tmin', cities=cities)}}" />
+  <img src="{{url_for('plot_var', var='tmax', cities=cities)}}" />
+  <img src="{{url_for('plot_var', var='tavg', cities=cities)}}" />
+</div>

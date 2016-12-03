@@ -1,0 +1,2 @@
+recursive-include MetChart/data *.json
+recursive-include MetChart/templates *.html
